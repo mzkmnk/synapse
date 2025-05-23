@@ -6,10 +6,18 @@
   "scripts": {
     "frontend:start": "pnpm --filter frontend start",
     "frontend:build": "pnpm --filter frontend build",
-    "frontend:test": "pnpm --filter frontend test"
+    "frontend:test": "pnpm --filter frontend test",
+    "eslint:ins": "pnpm eslint --inspect-config",
+    "eslint:fix": "pnpm eslint --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.11.0"
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "eslint": "^9.27.0",
+    "globals": "^16.1.0",
+    "typescript-eslint": "^8.32.1"
+  }
 }

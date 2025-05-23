@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "frontend:start": "pnpm --filter frontend start",
+    "frontend:build": "pnpm --filter frontend build",
+    "frontend:test": "pnpm --filter frontend test"
   },
   "keywords": [],
   "author": "",

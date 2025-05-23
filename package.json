@@ -6,7 +6,9 @@
   "scripts": {
     "frontend:start": "pnpm --filter frontend start",
     "frontend:build": "pnpm --filter frontend build",
-    "frontend:test": "pnpm --filter frontend test"
+    "frontend:test": "pnpm --filter frontend test",
+    "eslint:ins": "pnpm eslint --inspect-config",
+    "eslint:fix": "pnpm eslint --fix"
   },
   "keywords": [],
   "author": "",
